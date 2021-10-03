@@ -1,4 +1,4 @@
-class Solution {
+class GasStation {
     /**
      1. Initiate total_tank and curr_tank as zero, and choose station 0 as a starting station.
      2. Iterate over all stations :
