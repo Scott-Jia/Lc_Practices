@@ -1,4 +1,4 @@
-/**
+package practice_before_lenovo; /**
  STEP1: traverse the tree by DFS, generate a list of triplet (3 dimention values)
  STEP2: sort the list (compare first -> second -> third)
  STEP3: extract the value from sorted list, and group them by collumn index

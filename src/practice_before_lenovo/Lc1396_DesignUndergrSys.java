@@ -1,3 +1,5 @@
+package practice_before_lenovo;
+
 import java.util.*;
 
 
@@ -72,8 +74,8 @@ class Pair<K, V> {
     public V getValue() { return this.value; }
 }
 /**
- * Your UndergroundSystem object will be instantiated and called as such:
- * UndergroundSystem obj = new UndergroundSystem();
+ * Your practice_before_lenovo.UndergroundSystem object will be instantiated and called as such:
+ * practice_before_lenovo.UndergroundSystem obj = new practice_before_lenovo.UndergroundSystem();
  * obj.checkIn(id,stationName,t);
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);

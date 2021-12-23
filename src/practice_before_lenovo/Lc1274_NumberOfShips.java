@@ -1,7 +1,9 @@
+package practice_before_lenovo;
+
 /**
- * // This is Sea's API interface.
+ * // This is practice_before_lenovo.Sea's API interface.
  * // You should not implement it, or speculate about its implementation
- * class Sea {
+ * class practice_before_lenovo.Sea {
  *     public boolean hasShips(int[] topRight, int[] bottomLeft);
  * }
  */

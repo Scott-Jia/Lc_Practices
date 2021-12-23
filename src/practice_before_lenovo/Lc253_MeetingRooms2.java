@@ -1,6 +1,13 @@
+package practice_before_lenovo;
+
 import java.util.*;
 
 class Lc253_MeetingRooms3 {
+    /**
+     * Given an array of meeting time intervals, return the minimum number of conference room required
+     * @param intervals: the array of interval's array
+     * @return the number of rooms needed
+     */
     public int minMeetingRooms(int[][] intervals) {
 
         if (intervals == null || intervals.length == 0) return 0;
@@ -13,6 +20,7 @@ class Lc253_MeetingRooms3 {
         });
 
         // initialize a min-heap (priority queue)
+        // to serve as an ongoing meeting poll (store ending time in PQ)
         PriorityQueue<Integer> pq = new PriorityQueue<>(
                 intervals.length,
                 new Comparator<Integer>() {

@@ -1,4 +1,4 @@
-/**
+package practice_before_lenovo; /**
  Take use of structure of HashMap and ArrayList [mapping <--> index]
  1. Hashmap provides Insert and Delete in average constant time, although has problems with GetRandom. [need Index]
  2. Array List has indexes and could provide Insert and GetRandom in average constant time, though has problems with Delete.

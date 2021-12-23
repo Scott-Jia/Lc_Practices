@@ -1,4 +1,4 @@
-/**
+package practice_before_lenovo; /**
  [BFS]
  1. traverse from the start, push all the possible next substring end_point into queue
  (these work as the the second level in a tree)

@@ -1,3 +1,5 @@
+package practice_before_lenovo;
+
 class Lc723_CandyCrush {
     public int[][] candyCrush(int[][] board) {
         int row = board.length, column = board[0].length;

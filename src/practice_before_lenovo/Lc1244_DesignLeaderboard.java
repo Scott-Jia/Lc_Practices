@@ -1,3 +1,5 @@
+package practice_before_lenovo;
+
 import java.util.*;
 
 class Leaderboard {
@@ -41,8 +43,8 @@ class Leaderboard {
 }
 
 /**
- * Your Leaderboard object will be instantiated and called as such:
- * Leaderboard obj = new Leaderboard();
+ * Your practice_before_lenovo.Leaderboard object will be instantiated and called as such:
+ * practice_before_lenovo.Leaderboard obj = new practice_before_lenovo.Leaderboard();
  * obj.addScore(playerId,score);
  * int param_2 = obj.top(K);
  * obj.reset(playerId);

@@ -1,3 +1,5 @@
+package practice_before_lenovo;
+
 import java.util.*;
 
 class Lc1472_BrowserHistory {
